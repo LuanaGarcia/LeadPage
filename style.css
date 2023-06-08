@@ -4,3 +4,59 @@
   box-sizing: border-box;
   font-family: Roboto;
 }
+
+.background{
+  background-color: black;
+  height: 100vh;
+}
+
+.perfil{
+  text-align: right;
+  margin-top: -10px;
+  margin-right: 70px;
+}
+
+.perfil img{
+  border-radius: 350px;
+  box-shadow: 1px 1px 14px 8px rgb(31, 31, 31);
+  width: 550px;
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 45px;
+  padding-left: 8%;
+  padding-right: 8%;
+}
+
+nav h2{
+  color: aliceblue;
+  font-size: 35px;
+  cursor: pointer;
+  letter-spacing: 1px;
+}
+
+span{
+  color:red;
+}
+
+nav ul li{
+  display: inline-block;
+  padding: 10px 25px;
+  list-style-type: none;
+}
+
+nav ul li a{
+  color: whitesmoke;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+nav ul li a:hover{
+  color: red;
+  transition: 0.5s;
+
+}
